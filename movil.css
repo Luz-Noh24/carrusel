@@ -1,0 +1,38 @@
+@media (max-width: 480px) {
+    .Contenedor {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    #carousel {
+      max-width: 100%;
+    }
+  
+    #slide-container {
+      gap: 5px;
+      border-width: 2px;
+    }
+  
+    .slide img {
+      width: 90%;          /* Ocupa el 90% del contenedor en pantallas pequeñas */
+      max-width: 200px;    /* Tamaño máximo reducido */
+      max-height: 150px;   /* Altura máxima reducida */
+    }
+  
+    .perfil h2 {
+      font-size: 1.5em;
+    }
+  
+    .perfil h3 {
+      font-size: 1.5em;
+    }
+  
+    .perfil p {
+      font-size: 1em;
+    }
+  
+    .arrow {
+      padding: 8px 12px;
+      font-size: 1.2em;
+    }
+  }
