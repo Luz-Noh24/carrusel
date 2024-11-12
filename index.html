@@ -1,69 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>carousel luznoh</title>
-    <link rel="stylesheet" href="carrousel.css" />
-    <link rel="stylesheet" href="movil.css" />
+    <meta charset="UTF-8" /> <!-- Define la codificación de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Configura la vista para dispositivos móviles -->
+    <title>carousel luznoh</title> <!-- Título de la página que se muestra en la pestaña del navegador -->
+    <link rel="stylesheet" href="carrousel.css" /> <!-- Enlace al archivo de estilos principal del carrusel -->
+    <link rel="stylesheet" href="movil.css" /> <!-- Enlace al archivo de estilos específico para dispositivos móviles -->
   </head>
- 
+
   <body>
     
+    <!-- Contenedor principal para el carrusel y el perfil del equipo -->
     <div class="Contenedor">
  
+      <!-- Sección de información sobre el equipo -->
       <section class="perfil">
-
-        <h2>OUR TEAM</h2>
-        <h3>PROFESSIONAL PC REPAIR TEAM</h3>
+        <h2>OUR TEAM</h2> <!-- Subtítulo de la sección -->
+        <h3>PROFESSIONAL PC REPAIR TEAM</h3> <!-- Título principal sobre el equipo de reparación -->
         <p>
-          Since our establishment, we have gathered a team of dedicated PC
-          repair professionals.
+          Since our establishment, we have gathered a team of dedicated PC repair professionals.
         </p>
         <br>
+        
+        <!-- Botones de navegación para el carrusel -->
         <div class="slide-buttons">
-          <a id="back-button" class="arrow">&larr;</a>
-          <a id="forward-button" class="arrow">&rarr;</a>
+          <a id="back-button" class="arrow">&larr;</a> <!-- Botón de retroceso en el carrusel -->
+          <a id="forward-button" class="arrow">&rarr;</a> <!-- Botón de avance en el carrusel -->
         </div>
-
       </section>
+
+      <!-- Carrusel de perfiles del equipo -->
       <div id="carousel" class="caro">
+        <!-- Contenedor de las diapositivas del carrusel -->
         <div id="slide-container" class="slide-container">
+          
+          <!-- Diapositiva 1 del carrusel -->
           <div class="slide" data-slideindex="0">
             <article>
-              <img src="imagenes/foto1.jpg" alt="John Tuff" />
-              <h3>John Tuff</h3>
-              <p>Field Technician</p>
+              <img src="imagenes/foto1.jpg" alt="John Tuff" /> <!-- Imagen de perfil de John Tuff -->
+              <h3>John Tuff</h3> <!-- Nombre del miembro del equipo -->
+              <p>Field Technician</p> <!-- Cargo o función del miembro -->
             </article>
           </div>
+          
+          <!-- Diapositiva 2 del carrusel -->
           <div class="slide" data-slideindex="1">
             <article>
-              <img src="imagenes/foto2.jpg" alt="Frank McMillan" />
-              <h3>Frank McMillan</h3>
-              <p>General Manager</p>
+              <img src="imagenes/foto2.jpg" alt="Frank McMillan" /> <!-- Imagen de perfil de Frank McMillan -->
+              <h3>Frank McMillan</h3> <!-- Nombre del miembro del equipo -->
+              <p>General Manager</p> <!-- Cargo o función del miembro -->
             </article>
           </div>
+          
+          <!-- Diapositiva 3 del carrusel -->
           <div class="slide" data-slideindex="2">
             <article>
-              <img src="imagenes/foto3.jpg" alt="John Smith" />
-              <h3>John Smith</h3>
-              <p>Field Technician</p>
+              <img src="imagenes/foto3.jpg" alt="John Smith" /> <!-- Imagen de perfil de John Smith -->
+              <h3>John Smith</h3> <!-- Nombre del miembro del equipo -->
+              <p>Field Technician</p> <!-- Cargo o función del miembro -->
             </article>
           </div>
-
-          <div class="slide" data-slideindex="2">
+          
+          <!-- Diapositiva 4 del carrusel -->
+          <div class="slide" data-slideindex="3">
             <article>
-              <img src="imagenes/foto4.jpg" alt="John Aveiro" />
-              <h3>John Aveiro</h3>
-              <p>Field Technician</p>
+              <img src="imagenes/foto4.jpg" alt="John Aveiro" /> <!-- Imagen de perfil de John Aveiro -->
+              <h3>John Aveiro</h3> <!-- Nombre del miembro del equipo -->
+              <p>Field Technician</p> <!-- Cargo o función del miembro -->
             </article>
           </div>
-
-          <div class="slide" data-slideindex="2">
+          
+          <!-- Diapositiva 5 del carrusel -->
+          <div class="slide" data-slideindex="4">
             <article>
-              <img src="imagenes/foto5.jpg" alt="John Morgan" />
-              <h3>John Morgan</h3>
-              <p>Field Technician</p>
+              <img src="imagenes/foto5.jpg" alt="John Morgan" /> <!-- Imagen de perfil de John Morgan -->
+              <h3>John Morgan</h3> <!-- Nombre del miembro del equipo -->
+              <p>Field Technician</p> <!-- Cargo o función del miembro -->
             </article>
           </div>
 
@@ -71,6 +83,7 @@
       </div>
     </div>
 
+    <!-- Enlace al archivo JavaScript que maneja la funcionalidad del carrusel -->
     <script src="carousel.js"></script>
   </body>
 </html>

@@ -1,38 +1,40 @@
-@media (max-width: 480px) {
-    .Contenedor {
-      width: 100%;
-      padding: 10px;
-    }
+@media (max-width: 480px) { 
+  /* Configuración para pantallas de 480px o menos */
   
-    #carousel {
-      max-width: 100%;
-    }
-  
-    #slide-container {
-      gap: 5px;
-      border-width: 2px;
-    }
-  
-    .slide img {
-      width: 90%;          /* Ocupa el 90% del contenedor en pantallas pequeñas */
-      max-width: 200px;    /* Tamaño máximo reducido */
-      max-height: 150px;   /* Altura máxima reducida */
-    }
-  
-    .perfil h2 {
-      font-size: 1.5em;
-    }
-  
-    .perfil h3 {
-      font-size: 1.5em;
-    }
-  
-    .perfil p {
-      font-size: 1em;
-    }
-  
-    .arrow {
-      padding: 8px 12px;
-      font-size: 1.2em;
-    }
+  .Contenedor {
+    width: 100%;          /* Ajusta el contenedor para ocupar todo el ancho de la pantalla */
+    padding: 10px;        /* Reduce el padding para ahorrar espacio en pantallas pequeñas */
   }
+
+  #carousel {
+    max-width: 100%;      /* Asegura que el carrusel ocupe todo el ancho disponible */
+  }
+
+  #slide-container {
+    gap: 5px;             /* Reduce el espacio entre las diapositivas */
+    border-width: 2px;    /* Disminuye el grosor del borde */
+  }
+
+  .slide img {
+    width: 90%;           /* Ocupa el 90% del contenedor en pantallas pequeñas */
+    max-width: 200px;     /* Limita el ancho máximo de la imagen */
+    max-height: 150px;    /* Limita la altura máxima de la imagen */
+  }
+
+  .perfil h2 {
+    font-size: 1.5em;     /* Reduce el tamaño de la fuente para el encabezado h2 */
+  }
+
+  .perfil h3 {
+    font-size: 1.5em;     /* Reduce el tamaño de la fuente para el encabezado h3 */
+  }
+
+  .perfil p {
+    font-size: 1em;       /* Ajusta el tamaño de fuente del párrafo para una lectura cómoda en dispositivos móviles */
+  }
+
+  .arrow {
+    padding: 8px 12px;    /* Ajusta el tamaño del padding en los botones de flecha */
+    font-size: 1.2em;     /* Ajusta el tamaño de fuente de las flechas para mejor visibilidad en móviles */
+  }
+}
